@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.page {
+	background: url(cloudy2.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: 414px 736px;
+	width: 414px;
+	height: 736px;
+    margin: auto;
+    border: 2px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+    position: relative;
+    width: 414px;
+	height: 65px;
+    top: 671px;
+    background-color: #ffffff;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home {
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sixteen {
+    width: 33px;
+    height: 33px;
+    margin-left: 40px;
+    margin-bottom: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notif {
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+}
+
+.burger {
+    width: 30px;
+    height: 30px;
+    margin-left: 35px;
+    margin-bottom: 5px;
 }
