@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .page {
 	background: url(cloudy2.jpg);
     /* background-repeat: no-repeat; */
