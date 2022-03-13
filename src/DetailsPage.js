@@ -7,8 +7,14 @@ const DetailsPage = () => {
   return (
     <div classname = "detailsPage">
         
-        <h1>{date}</h1>
-        <h2>{time}</h2>
+        <h2 class = "date">{date}</h2>
+        <h2 class = "time">{time}</h2>
+        <h1 class = "mainTemp"> 8</h1>
+        <p class = "highLowTemps">H: 8 L: 8</p>
+        <p class = "tempInfo1">morning temp: 10</p>
+        <p class = "tempInfo2">day temp: 10</p>
+        <p class = "tempInfo3">evening temp: 10</p>
+        <p class = "tempInfo4">night temp: 10</p>
     </div>
   )
 }

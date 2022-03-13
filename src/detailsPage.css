@@ -1,14 +1,53 @@
-h1 {
+.date {
     position: absolute;
-    left: 42.25%;
-    color: white;
-    font-size: 38pt;
+    left: 44.5%;
+    top: 30px;
+    color: black;
+    font-size: 24pt;
 }
 
-h2 {
+.time {
     position:absolute;
-    top: 67px;
-    left: 44.5%;
-    color: white;
-    font-size: 32pt;
+    top: 65px;
+    left: 45%;
+    color: black;
+    font-size: 24pt;
+}
+
+.mainTemp {
+    position: absolute;
+    left: 48.35%;
+    top: 100px;
+    font-size: 50pt;
+}
+
+.highLowTemps {
+    left: 46.5%;
+    top: 195px;
+}
+
+.tempInfo1{
+    left: 35%;
+    top: 350px;    
+}
+
+.tempInfo2{
+    left: 55%;
+    top: 350px;
+
+}
+
+.tempInfo3{
+    left: 35%;
+    top: 380px;
+}
+
+.tempInfo4{
+    left: 55%;
+    top: 380px;
+}
+
+p {
+    position: absolute;
+    font-size: 16pt;
 }
