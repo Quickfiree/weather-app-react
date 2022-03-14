@@ -51,3 +51,15 @@ p {
     position: absolute;
     font-size: 16pt;
 }
+
+.infoTable {
+    margin: 0;
+    position: absolute;
+    left: 17.5%;
+    top: 450px;
+}
+
+.infoTable td {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
