@@ -1,6 +1,9 @@
-import "./detailsPage.css"
+import "./detailsPage.css";
+import HighLowTemps from "./HighLowTemps";
 import InfoTable from "./InfoTable";
 import TempInfo from "./TempInfo";
+import SunRiseSet from "./SunRiseSet";
+import Status from "./Status";
 
 const DetailsPage = () => {
     const current = new Date();
@@ -11,7 +14,9 @@ const DetailsPage = () => {
         <h2 className = "date">{date}</h2>
         <h2 className = "time">{time}</h2>
         <h1 className = "mainTemp">8<sup>&#176;C</sup></h1>
-        <p className = "highLowTemps">H: 8<sup>&#176;C</sup> L: 8<sup>&#176;C</sup></p>
+        <HighLowTemps />
+        <Status />
+        <SunRiseSet />
         <TempInfo />
         <InfoTable />
     </div>

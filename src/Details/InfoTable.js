@@ -1,4 +1,6 @@
-import circle from "./Details/circle_faded.png"
+import Raincloud from './Torrential_Rain.png';
+import Thermometer from './Dew_Point.png';
+import Wind from './Wind.png';
 
 const InfoTable = () => {
   return (
@@ -7,24 +9,24 @@ const InfoTable = () => {
           <tbody>
             <tr>
               <td>
-                <img src = {circle} alt = "info"/>
+                <img src = {Raincloud} alt = "info"/>
               </td>
               <td>
-                <img src = {circle} alt = "info"/>
+                <img src = {Thermometer} alt = "info"/>
               </td>
               <td>
-                <img src = {circle} alt = "info"/>
+                <img src = {Wind} alt = "info"/>
               </td>
             </tr>
             <tr>
               <td>
-                <img src = {circle} alt = "info"/>
+              <img src = {Raincloud} alt = "info"/>
               </td>
               <td>
-                <img src = {circle} alt = "info"/>
+              <img src = {Thermometer} alt = "info"/>
               </td>
               <td>
-                <img src = {circle} alt = "info"/>
+                <img src = {Wind} alt = "info"/>
               </td>
             </tr>
           </tbody>

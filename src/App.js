@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import "./Details/App.css"
-import DetailsPage from './DetailsPage'
+import DetailsPage from './Details/DetailsPage'
 
 export default function App() {
   return (

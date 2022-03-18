@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Mulish:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    font-family: Comfortaa;
+}
+
+.date {
+    position: relative;
+    left: 30.5%;
+    top: 25px;
+    color: black;
+    font-size: 24pt;
+}
+
+.time {
+    position: relative;
+    left: 40%;
+    top: 5px;
+    color: black;
+    font-size: 24pt;
+}
+
+.mainTemp {
+    position: relative;
+    left: 45%;
+    bottom: 40px;
+    font-size: 45pt;
+}
+
+.highLow {
+    position: relative;
+    font-weight: bold;
+    left: 37.5%;
+    bottom: 90px;
+}
+
+#caption {
+    position: relative;
+    left: 20%;
+    bottom: 90px;
+
+}
+
+.sunRiseSet {
+    position: relative;
+    left: 25.5%;
+    bottom: 90px;
+}
+
+.sunRiseSet td{
+    padding-right: 100px;
+    text-align: center;
+}
+
+.tempInfo {
+    position: relative;
+    margin-left: 25px;
+    bottom: 75px;
+}
+
+.tempInfo td{
+    padding-right: 20px;
+    font-size: 14pt;
+}
+
+p {
+    position: relative;
+    font-size: 16pt;
+}
+
+.infoTable {
+    position: relative;
+    bottom: 90px;
+    left: 7.5%;
+    border-spacing: 30px;
+}
+
+.infoTable td {
+    background-image: url("./circle_faded.png");
+    width: 79px;
+    height: 79px;
+    text-align: center;
+}
