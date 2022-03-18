@@ -32,15 +32,15 @@ body {
 .highLow {
     position: relative;
     font-weight: bold;
-    left: 37.5%;
-    bottom: 90px;
+    font-size: 16pt;
+    left: 32.5%;
+    bottom: 85px;
 }
 
 #status {
     position: relative;
     left: 20%;
     bottom: 90px;
-
 }
 
 .sunRiseSet {
