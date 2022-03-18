@@ -1,62 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css?family=Comfortaa:regular,bold,italic&subset=latin,latin-ext'); */
+
 .date {
-    position: absolute;
-    left: 35%;
+    position: relative;
+    left: 33.5%;
     top: 30px;
     color: black;
     font-size: 24pt;
 }
 
 .time {
-    position:absolute;
-    top: 65px;
-    left: 36%;
+    position: relative;
+    left: 40%;
     color: black;
     font-size: 24pt;
 }
 
 .mainTemp {
-    position: absolute;
-    left: 46%;
-    top: 100px;
+    position: relative;
+    left: 45%;
+    bottom: 50px;
     font-size: 50pt;
 }
 
 .highLowTemps {
-    left: 40.5%;
-    top: 195px;
+    left: 40%;
+    bottom: 100px
 }
 
 .tempInfo1{
     left: 10%;
-    top: 350px;    
 }
 
 .tempInfo2{
     left: 60%;
-    top: 350px;
 
 }
 
 .tempInfo3{
     left: 10%;
-    top: 380px;
 }
 
 .tempInfo4{
     left: 60%;
-    top: 380px;
 }
 
 p {
-    position: absolute;
+    position: relative;
     font-size: 16pt;
 }
 
 .infoTable {
     margin: 0;
-    position: absolute;
+    position: relative;
     left: 17.5%;
-    top: 450px;
 }
 
 .infoTable td {
