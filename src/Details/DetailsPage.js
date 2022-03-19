@@ -13,7 +13,7 @@ const DetailsPage = () => {
     <div className = "detailsPage">
         <h2 className = "date">{date}</h2>
         <h2 className = "time">{time}</h2>
-        <h1 className = "mainTemp">8<sup id = "super">&#176;C</sup></h1>
+        <h1 className = "mainTemp">8<sup className = "super">&#176;C</sup></h1>
         <HighLowTemps />
         <Status />
         <SunRiseSet />

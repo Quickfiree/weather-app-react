@@ -24,12 +24,13 @@ body {
 
 .mainTemp {
     position: relative;
-    left: 45%;
+    text-align: center;
+    /* /* left: 45%; */
     bottom: 30px;
     font-size: 45pt;
 }
 
-#super {
+.super {
     position: absolute;
     font-size: 16pt;
 }
@@ -94,7 +95,7 @@ p {
 
 .infoTable td {
     background-image: url("./circle_faded.png");
-    width: 79px;
-    height: 79px;
+    width: 78.5px;
+    height: 78.5px;
     text-align: center;
 }
