@@ -3,8 +3,10 @@ import Cloud from './Vector.png'
 const Status = () => {
   return (
     <div>
-        
-        <p id = "status"><img src = {Cloud} alt = "Null"/> The sky is </p>
+      <figure id="status">
+        <img src={Cloud} id="cloudImg" alt="Null" />
+        <figcaption>The sky is </figcaption>
+      </figure>
     </div>
   )
 }

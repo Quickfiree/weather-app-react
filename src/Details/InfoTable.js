@@ -10,23 +10,29 @@ const InfoTable = () => {
             <tr>
               <td>
                 <img src = {Raincloud} alt = "info"/>
+                <figcaption>Lmao</figcaption>
               </td>
               <td>
                 <img src = {Thermometer} alt = "info"/>
+                <figcaption>Lmao</figcaption>
               </td>
               <td>
                 <img src = {Wind} alt = "info"/>
+                <figcaption>Lmao</figcaption>
               </td>
             </tr>
             <tr>
               <td>
-              <img src = {Raincloud} alt = "info"/>
+                <img src = {Raincloud} alt = "info"/>
+                <figcaption>Lmao</figcaption>
               </td>
               <td>
-              <img src = {Thermometer} alt = "info"/>
+                <img src = {Thermometer} alt = "info"/>
+                <figcaption>Lmao</figcaption>
               </td>
               <td>
                 <img src = {Wind} alt = "info"/>
+                <figcaption>Lmao</figcaption>
               </td>
             </tr>
           </tbody>
